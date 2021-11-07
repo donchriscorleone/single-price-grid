@@ -17,9 +17,7 @@ body {
 }
 
 main {
-    border-radius: 5px;
     display: grid;
-    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
 }
 
 .heading {
@@ -169,6 +167,9 @@ main {
 
         grid-template-columns: 50% 50%;
         grid-template-rows: 50% 50%;
+
+        border-radius: 5px;
+        box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
     }
 
     .heading {
